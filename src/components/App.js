@@ -5,9 +5,11 @@ const App = () => {
   const [height, setHeight] = useState(300);
   const [width, setWidth] = useState(300);
   function handleclick() {
+    console.log("handleclick");
     setHeight(height + 2);
     setWidth(width + 2);
   }
+
   return (
     <div id="main">
       <img
